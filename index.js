@@ -20,7 +20,7 @@ const initializeDbAndServer = async () => {
     })
   } catch (e) {
     console.log(e.message)
-    proccess.exit(1)
+    process.exit(1)
   }
 }
 
